@@ -1,0 +1,64 @@
+.root {
+  position: relative;
+  width: 496px;
+  height: 524px;
+  align-items: flex-start;
+  background-color: #fff;
+}
+.frame3350 {
+  position: absolute;
+  left: 10.1695%;
+  right: 7.839%;
+  top: 22.8053%;
+  bottom: 22.6145%;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.text {
+  color: #25282b;
+  font-size: 40px;
+  line-height: 150%;
+  font-weight: bold;
+  font-family: Playfair Display, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-decoration: underline;
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+}
+.textBlock {
+  display: block;
+}
+.text2 {
+  color: #828282;
+  font-size: 18px;
+  line-height: 150%;
+  font-family: Nunito, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  height: min-content;
+  align-self: stretch;
+  flex-direction: column;
+}
+.botaoSecudario {
+  width: min-content;
+  height: min-content;
+  padding: 8px 24px;
+  outline: solid 1px #25282b;
+  outline-offset: -1px;
+  border-radius: 24px;
+}
+.text3 {
+  color: #25282b;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 500;
+  font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  z-index: 0;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
