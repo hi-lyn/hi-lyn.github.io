@@ -2,8 +2,8 @@ import { memo } from 'react';
 import type { FC } from 'react';
 
 import classes from './App.module.css';
+import { _1440px } from './components/_1440px/_1440px';
 import resets from './components/_resets.module.css';
-import { PortfolioSimpleFooter } from './components/PortfolioSimpleFooter/PortfolioSimpleFooter';
 
 interface Props {
   className?: string;
@@ -11,7 +11,7 @@ interface Props {
 export const App: FC<Props> = memo(function App(props = {}) {
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>
-      <PortfolioSimpleFooter />
+      <_1440px />
     </div>
   );
 });

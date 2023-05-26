@@ -1,0 +1,40 @@
+.root {
+  width: 333.33px;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+}
+.image {
+  height: 315px;
+  align-self: stretch;
+  background-color: #d9d9d9;
+}
+.headlineSubhead {
+  width: 315px;
+  height: min-content;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.projectTitle {
+  color: #2d2d2d;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  font-family: Epilogue, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 315px;
+  height: min-content;
+  flex-direction: column;
+}
+.uIArtDrection {
+  color: #2d2d2d;
+  font-size: 17px;
+  line-height: 27px;
+  font-family: Epilogue, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: 315px;
+  height: min-content;
+  flex-direction: column;
+}
