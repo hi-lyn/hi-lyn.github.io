@@ -42766,6 +42766,9 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-nav-1 {
   font-size: 1rem;
+  letter-spacing: normal;
+  font-weight: normal;
+  text-transform: none;
 }
 
 .u-header .u-nav-2 {
@@ -42777,12 +42780,6 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-menu-1 {
     width: auto;
     margin-top: -34px;
-  }
-
-  .u-header .u-nav-1 {
-    letter-spacing: normal;
-    font-weight: normal;
-    text-transform: none;
   }
 }
 
